@@ -296,14 +296,18 @@
 
 
 
-
-
 <distributionManagement>
-<snapshotRepository>
-<id>jpetclinic</id>
-<url>http://10.31.12.101:8081/nexus/content/repositories/jpetclinic/</url>
-<snapshotRepository>
+    <repository>
+      <id>jpetclinic</id>
+      <name>jpetclinic</name>
+      <url>http://10.31.12.101:8081/nexus/content/repositories/jpetclinic/</url>
+      <layout>default</layout>
+    </repository>
+    
 </distributionManagement>
+
+
+
 
 
 
