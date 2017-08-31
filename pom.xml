@@ -245,12 +245,12 @@
 </configuration>
 </plugin>
 
-<distributionManagement>
-<snapshotRepository>
-<id>jpetclinic</id>
-<url>http://10.31.12.101:8081/nexus/content/repositories/jpetclinic/</url>
-</snapshotRepository>
-</distributionManagement>
+
+
+
+
+
+
 
 
 </project>
