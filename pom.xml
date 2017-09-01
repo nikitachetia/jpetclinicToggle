@@ -201,28 +201,7 @@
         </executions>
       </plugin>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- Spring Boot Actuator displays build-related information if a git.properties 
+ <!-- Spring Boot Actuator displays build-related information if a git.properties 
         file is present at the classpath -->
       <plugin>
         <groupId>pl.project13.maven</groupId>
@@ -272,33 +251,9 @@
         </dependencies>
       </plugin>
     </plugins>
+ </build>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </build>
-
-
-  <reporting>
+    <reporting>
     <plugins>
       <!-- integrate maven-cobertura-plugin to project site -->
       <plugin>
@@ -314,69 +269,17 @@
       </plugin>
     </plugins>
   </reporting>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <distributionManagement>
     <repository>
-      <id>jpetclinic</id>
-      <name>jpetclinic</name>
-      <url>http://10.31.12.101:8081/nexus/content/repositories/jpetclinic/</url>
-      <layout>default</layout>
-    </repository>
-    
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://10.31.12.101:8081/nexus/content/repositories/releases/</url>
+   </repository>
+   
+       <snapshotRepository>
+      <id>snapshots</id>
+      <name>Snapshots</name>
+      <url>http://10.31.12.101:8081/nexus/content/repositories/snapshots/</url>
+   </snapshotRepository>
 </distributionManagement>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </project>
