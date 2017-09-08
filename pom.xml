@@ -126,7 +126,7 @@
    <version>1.5.1</version>
  <executions>
   <execution>
-    <id>jpetclinic</id>
+    <id>12345</id>
     <phase>deploy</phase>
    <goals>
     <goal>deploy</goal>
@@ -135,8 +135,8 @@
  </executions>
 
 <configuration>
-  <serverId>jpetclinic</serverId>
-  <nexusUrl>http://10.31.12.101:8081/nexus/content/repositories/jpetclinic/</nexusUrl>
+  <serverId>12345</serverId>
+  <nexusUrl>http://10.31.12.101:8081/nexus/content/repositories/releases/</nexusUrl>
   <skipStaging>true</skipStaging>
  </configuration>
  </plugin>
