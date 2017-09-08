@@ -274,12 +274,16 @@
       <id>releases</id>
       <name>Releases</name>
       <url>http://10.31.12.101:8081/nexus/content/repositories/releases/</url>
+      <username>admin</username>
+      <password>admin123</password>
    </repository>
    
        <snapshotRepository>
       <id>snapshots</id>
       <name>Snapshots</name>
       <url>http://10.31.12.101:8081/nexus/content/repositories/snapshots/</url>
+       <username>admin</username>
+      <password>admin123</password>
    </snapshotRepository>
 </distributionManagement>
 </project>
