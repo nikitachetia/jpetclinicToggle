@@ -114,7 +114,28 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
-    </dependency>
+    </dependencyi>
+
+<!-- Togglz for Servlet environments (mandatory) -->
+<dependency>
+  <groupId>org.togglz</groupId>
+  <artifactId>togglz-servlet</artifactId>
+  <version>2.4.1.Final</version>
+</dependency>
+
+<!-- CDI integration (optional) -->
+<dependency>
+  <groupId>org.togglz</groupId>
+  <artifactId>togglz-cdi</artifactId>
+  <version>2.4.1.Final</version>
+</dependency>
+
+<!-- Spring integration (optional) -->
+<dependency>
+  <groupId>org.togglz</groupId>
+  <artifactId>togglz-spring-web</artifactId>
+  <version>2.4.1.Final</version>
+</dependency>
   </dependencies>
 
   <build>
